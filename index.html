@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Budget Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Daily Budget Tracker</h1>
+            <div class="overall-balance">
+                <h2>Overall Balance: <span id="overall-balance">0</span> CHF</h2>
+            </div>
+        </div>
+        
+        <div class="daily-view">
+            <h2>Today: <span id="today-date"></span></h2>
+            <p>Daily Budget: <span id="daily-budget">0</span> CHF</p>
+            <p>Today's Balance: <span id="today-balance">0</span> CHF</p>
+            
+            <div class="expense-list" id="expense-list">
+                <!-- Expenses will appear here -->
+            </div>
+            
+            <div class="add-expense">
+                <input type="text" id="expense-description" placeholder="What did you buy?">
+                <input type="number" id="expense-amount" placeholder="Amount (CHF)">
+                <button id="add-expense">Add Expense</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
