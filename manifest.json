@@ -6,6 +6,8 @@
   "background_color": "#ffffff",
   "theme_color": "#007bff",
   "description": "Track your daily budget spending",
+  "display": "standalone",
+  "start_url": "/budget-app/",
   "icons": [
     {
       "src": "icon-192.png",
